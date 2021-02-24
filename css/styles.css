@@ -168,3 +168,60 @@ button {
   color: #adadad;
   font-size: 12px;
 }
+
+/********Media Query************/
+
+@media (min-width: 768px) {
+
+  header {
+      width: 75%;
+      margin: auto;
+  }
+
+  form {
+      width: 75%;
+      margin: auto;
+  }
+
+  #form-top label {
+      width: 23%;
+      align-self: center;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+      width: 70%;
+      align-self: center;
+      margin-bottom: 0;
+  }
+
+  .flex-pair {
+      display: flex; 
+      flex-direction: row;
+      justify-content: flex-start;
+      align-content: center;
+      margin-bottom: 30px;
+   }
+
+   #zip {
+       max-width: 25%;
+   }
+
+  textarea {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  textarea:focus {
+      height: 120px;
+  }
+
+  button {
+      width: 100%;
+      margin-top: 10px;
+  }
+
+}
