@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: rgba(135, 160, 201, 0.1); 
+}
+
+label {
+    color: rgb(45, 57, 69);
+}
+
+/*********** Header Styles ********/
+
+.top {
+  text-transform: uppercase;
+  background-color:rgb(45, 57, 69);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 0;
+}
+header {
+  width: 95%;
+  margin: auto;
+}
+
+.hr1 {
+  border: 2px solid rgb(45, 57, 69);
+  /* width: 290px; */
+  margin-bottom: 4px;
+}
+
+.hr2 {
+  border: 1px solid rgb(45, 57, 69);
+  /* width: 290px; */
+  margin-top: 4px;
+}
+
+
+header h3 {
+  font-weight: 800;
+  text-align: center;
+
+}
+
+header p {
+  color: rgb(190, 194, 197);
+  width: 86%;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 15px;
+  
+}
