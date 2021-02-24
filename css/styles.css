@@ -93,7 +93,7 @@ width: 100%;
 background-color: rgb(239, 240, 241);
 color: #8a97a0;
 margin-bottom: 30px;
-transition-duration: .6s;
+transition-duration: .3s;
 transition-property: border, border-radius;
 }
 
@@ -102,10 +102,11 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 textarea:focus,
 select:focus {
-  border: 5px inset #477ccc;
+  border: 3px outset #105c75;
   height: 60px;
   border-radius: 1em;
   outline: none;
+  background-color: #fff;
 }
 
 #zip {
